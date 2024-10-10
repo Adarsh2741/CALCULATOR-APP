@@ -1,0 +1,87 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #7687e5e2; */
+  background: linear-gradient(#64c6e6cd, #9198e5);
+  
+
+}
+
+.container {
+  
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 20px black; 
+  background-image: url(https://s.widget-club.com/images/YyiR86zpwIMIfrCZoSs4ulVD9RF3/d599f6f3fa4f8e91b6daa1c8dd1d5001/e36036e086e8e5ab32feb17c6b5f7ac1.jpg?q=70&w=500);
+}
+
+/* Calculator Styles */
+
+.calculator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.value {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0c4;
+}
+
+.num {
+  width: calc(25% - 10px);
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+ 
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0.601);
+
+  background: linear-gradient(#64c6e6cd, #9198e5);
+  
+
+}
+
+.num:hover {
+  transform: scale(1.05);
+}
+
+.clear, .delbtn {
+  background-color: #ff9900;
+  color: #fff;
+}
+
+.clear:hover, .delbtn:hover {
+  background-color: #ff6600;
+}
+
+.equal {
+  background-color: #4CAF50;
+  color: #fff;
+  width:210px;
+}
+
+.equal:hover {
+  background-color: #3e8e41;
+}
+
